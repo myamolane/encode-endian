@@ -1,13 +1,15 @@
 name: encode_endian
-description: A starting point for Dart libraries or applications.
-# version: 1.0.0
-# homepage: https://www.example.com
+description: A library can convert integer to big endian or little endian.
+version: 1.0.0
+homepage: https://github.com/myamolane/encode-endian
+publish_to: https://pub.dev
+author: myamolane <myamolane@outlook.com>
 
 environment:
   sdk: '>=2.7.0 <3.0.0'
 
 dependencies:
-  collection: 1.14.13
+  collection: ^1.14.13
 
 dev_dependencies:
   pedantic: ^1.8.0
